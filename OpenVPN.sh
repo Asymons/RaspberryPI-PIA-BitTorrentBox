@@ -1,0 +1,1 @@
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install openvpn -y && sudo apt-get install unzip -y && wget https://www.privateinternetaccess.com/openvpn/openvpn.zip && sudo unzip openvpn.zip -d /etc/openvpn/ && sudo reboot
